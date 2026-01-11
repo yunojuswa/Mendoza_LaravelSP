@@ -45,7 +45,7 @@
                     <div class="p-5 rounded bg-dark text-white text-center">
                       <div class="card-body border border-light rounded">
                         <h1 class="mb-4">Welcome to the Student Portal</h1>
-                        <p class="lead mb-4">A simple system to manage student records — <span class="text-warning">view</span>, <span class="text-success">create</span>, <span class="text-primary">edit</span>, and <span class="text-danger">delete</span> students quickly.</p>
+                        <p class="lead mb-4">A simple system to manage student records — <span class="text-warning">view</span>, <span class="text-success">create</span>, <span class="text-info">edit</span>, and <span class="text-danger">delete</span> students quickly.</p>
                         <a href="{{ route('students.index') }}" class="btn btn-lg btn-outline-light">Go to Student List</a>
                       </div>
                     </div>
