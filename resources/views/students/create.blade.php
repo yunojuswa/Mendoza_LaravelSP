@@ -82,7 +82,10 @@
                                         <div class="invalid-feedback">{{ $message }}</div>
                                     @enderror
                                 </div>
-                                <button type="submit" class="btn btn-success text-white">Save</button>
+                                <div class="d-flex flex-row mb-3 gap-2">
+                                    <button type="submit" class="btn btn-success text-white">Save</button>
+                                    <a href="{{route('students.index')}}" class="btn btn-secondary pd-5">Back</a>
+                                </div>
                             </form>
                         </div>
 
