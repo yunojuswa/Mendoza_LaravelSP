@@ -9,7 +9,7 @@ class StudentsController extends Controller
 {
     public function index()
     {
-        $students = Student::orderByDesc('created_at')->paginate(5);
+        $students = Student::orderByDesc('created_at')->paginate(10);
         return view('students.index', compact('students'));
     }
 
