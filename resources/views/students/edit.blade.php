@@ -84,7 +84,10 @@
                                     @enderror
                                 </div>
 
-                                <button class="btn btn-outline-success text-white">Update</button>
+                                <div class="d-flex flex-row mb-3 gap-2">
+                                    <button class="btn btn-success text-white">Update</button>
+                                    <a href="{{route('students.index')}}" class="btn btn-secondary pd-5">Cancel</a>
+                                </div>
                             </form>
                         </div>
                     </div>
